@@ -77,3 +77,4 @@ C:\Users\steven\Desktop\learningQL\GraphQLAPI\CommanderGQL\obj\Debug\net5.0\Comm
 C:\Users\steven\Desktop\learningQL\GraphQLAPI\CommanderGQL\obj\Debug\net5.0\ref\CommanderGQL.dll
 C:\Users\steven\Desktop\learningQL\GraphQLAPI\CommanderGQL\obj\Debug\net5.0\CommanderGQL.pdb
 C:\Users\steven\Desktop\learningQL\GraphQLAPI\CommanderGQL\obj\Debug\net5.0\CommanderGQL.genruntimeconfig.cache
+C:\Users\steven\Desktop\learningQL\GraphQLAPI\CommanderGQL\bin\Debug\net5.0\EntityFramework.dll
