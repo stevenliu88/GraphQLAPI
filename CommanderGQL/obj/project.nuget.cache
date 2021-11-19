@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mRSeJXIbMotC0wsnWqeICXql1euFt3ROq05mkSdxFjxMc11+rqgpzh40arV+9JsFysSizIHOYAwzEnRnGTnZpg==",
+  "dgSpecHash": "57ctUrG6rFlJ9EjbGR3kxsXujET+vf0I6gHdgmVanA7ehCaIihg+3NK5z4sXB5OLEeyuiJXHfW2IEmtdoyRu1g==",
   "success": true,
   "projectFilePath": "C:\\Users\\steven\\Desktop\\learningQL\\GraphQLAPI\\CommanderGQL\\CommanderGQL.csproj",
   "expectedPackageFiles": [
@@ -37,6 +37,7 @@
     "C:\\Users\\steven\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.2\\microsoft.entityframeworkcore.design.5.0.2.nupkg.sha512",
     "C:\\Users\\steven\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.2\\microsoft.entityframeworkcore.relational.5.0.2.nupkg.sha512",
     "C:\\Users\\steven\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.2\\microsoft.entityframeworkcore.sqlserver.5.0.2.nupkg.sha512",
+    "C:\\Users\\steven\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.2\\microsoft.entityframeworkcore.tools.5.0.2.nupkg.sha512",
     "C:\\Users\\steven\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\steven\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\steven\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
