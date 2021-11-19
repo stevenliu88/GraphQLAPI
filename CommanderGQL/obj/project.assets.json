@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "EntityFramework/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
       "GraphQL.Server.Ui.Voyager/4.4.1": {
         "type": "package",
         "compile": {
@@ -1768,6 +1777,35 @@
     }
   },
   "libraries": {
+    "EntityFramework/5.0.0": {
+      "sha512": "WYfgJWKg/RjwU8pzZkImD9DsV+J1nqDcIGp1S0/bdnElKBmAaUC2nmq/QQAcco32KyQQWnLgJNiDzIOz2xWFbQ==",
+      "type": "package",
+      "path": "entityframework/5.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Content/App.config.transform",
+        "Content/Web.config.transform",
+        "entityframework.5.0.0.nupkg.sha512",
+        "entityframework.nuspec",
+        "lib/net40/EntityFramework.dll",
+        "lib/net40/EntityFramework.xml",
+        "lib/net45/EntityFramework.dll",
+        "lib/net45/EntityFramework.xml",
+        "tools/EntityFramework.PS3.psd1",
+        "tools/EntityFramework.PowerShell.Utility.dll",
+        "tools/EntityFramework.PowerShell.dll",
+        "tools/EntityFramework.psd1",
+        "tools/EntityFramework.psm1",
+        "tools/Redirect.VS11.config",
+        "tools/Redirect.config",
+        "tools/about_EntityFramework.help.txt",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/migrate.exe"
+      ]
+    },
     "GraphQL.Server.Ui.Voyager/4.4.1": {
       "sha512": "zYQoqmtA1Py4bRUdOH/afSsgU5iMsGAZ/vDRbh3ullkt3WcktUFZ3U1yTLqWhvQU2/psxj4ZmGhwd+GOKpf38g==",
       "type": "package",
@@ -6196,6 +6234,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "EntityFramework >= 5.0.0",
       "GraphQL.Server.Ui.Voyager >= 4.4.1",
       "HotChocolate.AspNetCore >= 11.0.8",
       "HotChocolate.Data.Entityframework >= 11.0.8",
@@ -6204,23 +6243,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\liu1\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\steven\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GraphQLAPI\\CommanderGQL\\CommanderGQL.csproj",
+      "projectUniqueName": "C:\\Users\\steven\\Desktop\\learningQL\\GraphQLAPI\\CommanderGQL\\CommanderGQL.csproj",
       "projectName": "CommanderGQL",
-      "projectPath": "D:\\GraphQLAPI\\CommanderGQL\\CommanderGQL.csproj",
-      "packagesPath": "C:\\Users\\liu1\\.nuget\\packages\\",
-      "outputPath": "D:\\GraphQLAPI\\CommanderGQL\\obj\\",
+      "projectPath": "C:\\Users\\steven\\Desktop\\learningQL\\GraphQLAPI\\CommanderGQL\\CommanderGQL.csproj",
+      "packagesPath": "C:\\Users\\steven\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\steven\\Desktop\\learningQL\\GraphQLAPI\\CommanderGQL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\liu1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\steven\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6246,6 +6281,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "EntityFramework": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
           "GraphQL.Server.Ui.Voyager": {
             "target": "Package",
             "version": "[4.4.1, )"
@@ -6287,8 +6326,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EntityFramework 5.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EntityFramework",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
