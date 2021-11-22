@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using CommanderGQL.Data;
 using CommanderGQL.GraphQL;
 using GraphQL.Server.Ui.Voyager;
+using CommanderGQL.GraphQL.Platforms;
 
 namespace CommanderGQL
 {
@@ -32,6 +33,7 @@ namespace CommanderGQL
             services
                 .AddGraphQLServer()
                 .AddQueryType<Query>()
+                .AddType<PlatformType>()
                 .AddProjections();
                
         }
